@@ -1,60 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
 
-  <style>
-    body {
-      display: grid;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .textoRoxo {
-        color: blueviolet;
-    }
-    .textoVerde {
-        color: green;
-    }
-    .textoAzul {
-        color:blue;
-    }
-    .textoVermelho{
-        color: red;
-    }
-  </style>
-  <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-      </head>
-      <body>
-        Informe a área de armazenamento:
-        <input type="text" id="input_areaArmazem" placeholder="Em m²" />
-        <br /><br />
-        Média do lucro mensal:
-        <input type="text" id="input_lucroMensal" placeholder="Em BRL" />
-        <br /><br />
-        Média de vinho produzido por mes:
-        <input type="text" id="input_mediaVinho" placeholder="Em litros" />
-        <br /><br />
-        Tem algum servidor no local?
-        <input type="text" id="input_vefServidor" placeholder="Sim ou Não" />
-        <br /><br />
-        <button onclick="calculo()">Calcular Orçamento</button>
-        <div id="div_calculator"></div>
-      </body>
-    </html>
-  </body>
-</html>
-
-<script>
   function calculo() {
     var armazem = Number(input_areaArmazem.value);
     var lucro = Number(input_lucroMensal.value);
@@ -106,20 +50,20 @@
     Estamos comprometidos em ajudá-lo a otimizar sua operação e maximizar seus resultados. Obrigado por confiar na <b . class= textoRoxo> GrapeTec </b> ."  `;
     }
   }
-</script>
 
-  <!-- Instalação: R$ 200,00
 
-Valor por sensor: R$20,00
+   //Instalação: R$ 200,00
 
-Valor Arduino: R$60,00
+//Valor por sensor: R$20,00
 
-Mão de obra: R$500,00
+//Valor Arduino: R$60,00
 
-Computador: R$ 3.000,00
+//Mão de obra: R$500,00
 
-Painel de controle: 1.500,00
+//Computador: R$ 3.000,00
 
-Manutenção - Mão de obra: R$200,00 + reposição de peças
+//Painel de controle: 1.500,00
 
-Software: R$10.000,00 
+//Manutenção - Mão de obra: R$200,00 + reposição de peças
+
+//Software: R$10.000,00 
